@@ -1,0 +1,14 @@
+{
+  "dry_run?": true,
+  "profile_name": "default",
+  "region_name": "us-west-2",
+  "resources": [
+    "i-1234abcd",
+    "i-4567efgh"
+  ],
+  "tags": [
+    {"Key": "ENVIRONMENT", "Value": "QA"},
+    {"Key": "BILLING", "Value": "RD"},
+    {"Key": "PROJECT", "Value": "PERF TEST"}
+  ]
+}
