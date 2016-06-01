@@ -1,0 +1,22 @@
+# Path /boot/config.txt
+
+# Get rid of HDMI interference
+config_hdmi_boost=7
+
+# Set screen size
+overscan_left=-8
+overscan_right=-8
+overscan_top=-19
+overscan_bottom=-19
+
+# Set HMI
+hdmi_group=1
+hdmi_mode=16
+hdmi_force_hotplug=1
+hdmi_ignore_edid=0xa5000080
+
+# Over clock and Over voltage
+arm_freq=1000
+core_freq=500
+sdram_freq=500
+over_voltage=2
